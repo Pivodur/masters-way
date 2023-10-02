@@ -11,4 +11,9 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {args: {src: "https://picsum.photos/200/300", alt: "Image"}};
+export const Default: Story = {
+  args: {
+    src: "src/assets/storybook-images/kittens.jpg",
+    alt: "Kittens in an attempt to do at least one component correctly",
+  },
+};
